@@ -1,0 +1,13 @@
+.*
+*.md
+*.yml
+
+docs/
+example/
+node_modules/
+
+babel.config.js
+commitlint.config.js
+postcss.config.js
+tsconfig.json
+vue.config.js
