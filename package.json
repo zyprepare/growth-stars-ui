@@ -2,6 +2,7 @@
   "name": "growth-stars-ui",
   "version": "0.0.1",
   "main": "lib/index.umd.min.js",
+  "homepage": "https://zyprepare.github.io/growth-stars-ui/",
   "keyword": "growth-stars-ui vue组件 交互组件",
   "description": "繁星组件库，基于vue实现的交互组件",
   "author": "zyprepare@163.com",
