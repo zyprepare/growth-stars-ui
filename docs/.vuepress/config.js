@@ -1,4 +1,5 @@
 module.exports = {
+  base: './',
   title: 'Stars UI',
   description: '繁星组件库',
   themeConfig: {
