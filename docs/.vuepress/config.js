@@ -1,5 +1,5 @@
 module.exports = {
-  base: './',
+  base: '/growth-stars-ui/',
   title: 'Stars UI',
   description: '繁星组件库',
   themeConfig: {

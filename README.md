@@ -1,4 +1,4 @@
-繁星组件库
+<a href="https://zyprepare.github.io/growth-stars-ui/">繁星组件库</a>
 ====
 基于vue2的移动端组件库，主要以交互组件为主，支持全局和按需加载。
 
