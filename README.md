@@ -1,31 +1,40 @@
 <a href="https://zyprepare.github.io/growth-stars-ui/">繁星组件库</a>
 ====
-基于vue2的移动端组件库，主要以交互组件为主，支持全局和按需加载。
+基于vue的移动端组件库，主要对组件交互进行了封装，提供默认样式和内容，使用者可以灵活自行传入具体内容和样式，支持全局和按需加载。
+
+### 安装
 
 ``` bash
-# Project setup
-npm install
+npm i growth-stars-ui
+```
 
-# dev
-npm start
+### 使用
 
-# 当代码中提示eslint报错时，可执行该命令进行修复
-npm run fix
+``` js
+// 全局加载
 
-# Compiles and hot-reloads for development
-npm run serve
+import StarsUI from 'growth-stars-ui';
+import 'growth-stars-ui/lib/index.css';
 
-# 组件库打包
-npm run lib
+// 注册所有组件
+Vue.use(StarsUI);
+// or 注册全局组件
+Vue.use(StarsUI.gobal);
+// or 注册全局普通组件
+Vue.use(StarsUI.local);
 
-# 文档开发
-npm run docs:dev
+// 按需加载
 
-# 文档打包
-npm run docs:build
+import { Popup } from 'growth-stars-ui';
 
-# 上传文档页面
-npm run deploy
+Vue.component('Popup', Popup);
+
+// or
+export default {
+  components: {
+    Popup
+  }
+}
 ```
 
 

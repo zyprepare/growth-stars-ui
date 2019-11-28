@@ -10,6 +10,7 @@
     </div>
   </div>
 </template>
+
 <script>
 export default {
   name: 'Loading',
@@ -93,7 +94,6 @@ export default {
         display: block;
         width: 53%;
         height: 35%;
-        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAOBAMAAAAyKEr9AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAVUExURQAAAJmZmZmZmZmZmZmZmZmZmZmZmdpm/XsAAAAGdFJOUwBVyoShFMxfo8EAAABbSURBVAjXY2AwSzNgSUtLcmQAAkE3A5YUY6M0VRBHzIAlkYEhKAnBZlATQLDFFBBstgTs7LAErOpZwea4CYDYQskMDMpGSQEsSUpqaQZAK9JcGZiVlFRMGVAAAEKtEXYEpHiNAAAAAElFTkSuQmCC);
         background-repeat: no-repeat;
         background-size: contain;
       }

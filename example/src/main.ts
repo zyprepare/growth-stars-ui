@@ -1,9 +1,11 @@
 import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
-import starsUI from '../../src/index';
+import StarsUI from '../../src/index';
 
-Vue.use(starsUI);
+Vue.use(StarsUI);
+// Vue.use(StarsUI.gobal);
+// Vue.use(StarsUI.local);
 
 new Vue({
   router,

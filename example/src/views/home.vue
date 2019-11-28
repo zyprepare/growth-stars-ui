@@ -13,7 +13,7 @@
       <div class="example-button" @click="openMyPopup">Popup</div>
       <Popup ref="myPopup">
         <div class="my-popup-content">
-          <div>自定义HTML</div>
+          <div>弹窗内容自定义HTML</div>
           <button @click="closeMyPopup">关闭弹窗</button>
         </div>
       </Popup>
@@ -25,21 +25,7 @@
 <script>
 export default {
   data() {
-    return {
-      isShowBanner: false,
-      dataList: [
-        '//m.360buyimg.com/mobilecms/s700x280_jfs/t1/99086/24/917/70241/5db6af2eE21280630/3cee42175808795c.jpg!cr_1125x445_0_171!q70.jpg.dpg',
-        '//m.360buyimg.com/mobilecms/s700x280_jfs/t1/96076/33/615/111665/5db0fbbcE510023be/a924082c8547c04c.jpg!cr_1125x445_0_171!q70.jpg.dpg'
-      ],
-      slideDirection: 'left',
-      pageNum: 1,
-      isLoadingData: false,
-      listData: [],
-      isShowBroadCast: false,
-      broadCastText:
-        '这是小广播，小广播小广播小广播小广播小广播小广播小广播小广播小广播小广播小广播小广播小广播小广播哈',
-      isShowPrice: false
-    };
+    return {};
   },
   methods: {
     openToast() {
@@ -113,8 +99,7 @@ export default {
 
 .star-icon {
   position: relative;
-  left: 100px;
-  top: 100px;
+  margin: 30px auto;
   width: 200px;
   height: 200px;
   border-radius: 10px;
