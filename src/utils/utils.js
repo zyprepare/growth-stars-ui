@@ -7,7 +7,7 @@ export const modalHelper = (function(bodyCls) {
     afterOpen: function() {
       scrollTop = document.scrollingElement.scrollTop;
       document.body.classList.add(bodyCls);
-      document.body.style.top = -scrollTop + "px";
+      document.body.style.top = -scrollTop + 'px';
     },
     beforeClose: function() {
       document.body.classList.remove(bodyCls);
@@ -15,4 +15,4 @@ export const modalHelper = (function(bodyCls) {
       document.scrollingElement.scrollTop = scrollTop;
     }
   };
-})("modal-open");
+})('modal-open');

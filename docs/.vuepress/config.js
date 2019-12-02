@@ -5,7 +5,7 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/components/toast' },
+      { text: 'Guide', link: '/components/' },
       { text: 'Github', link: 'https://github.com/zyprepare/growth-stars-ui' },
     ],
     sidebar: [
@@ -13,7 +13,7 @@ module.exports = {
         title: '组件',
         collapsable: false,
         children: [
-          // '/components/',
+          '/components/',
           '/components/toast',
           '/components/loading',
           '/components/exception',

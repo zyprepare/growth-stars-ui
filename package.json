@@ -1,6 +1,6 @@
 {
   "name": "growth-stars-ui",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "lib/index.umd.min.js",
   "homepage": "https://zyprepare.github.io/growth-stars-ui/",
   "keywords": [

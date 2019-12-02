@@ -2,7 +2,7 @@
 home: true
 heroImage: /star-logo.png
 actionText: 使用文档 →
-actionLink: /components/toast
+actionLink: /components/
 features:
 - title: 交互为主
   details: 繁星组件库的组件以交互组件为主，把繁琐的交互代码进行了封装。
